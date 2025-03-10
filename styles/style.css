@@ -60,6 +60,7 @@ ul li:first-child {
   .menu-bar{
     display:none;
   }
+  /* Empowering */
   .Empowering{
     width:410px;
   }
@@ -82,12 +83,229 @@ margin-bottom:20px;
     display:flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom:40px;
   }
   .hero{
     margin-left:100px;
   }
   .hero img {
     width:350px;
+  }
+  /* new section curriculum */
+  .curriculum h2{
+    width:450px;
+font-size:2.5rem;
+font-weight: 800;
+line-height: 55px;
+margin:0 auto;
+  }
+  .cards{
+    display:flex;
+    gap:15px;
+  justify-content:center;
+  margin-top:50px;
+  }
+  .card{
+    border: 1px solid ;
+    width:270px;
+    text-align: center;
+    height: 340px;
+    padding:20px 20px 0px 20px;
+    border-radius:10px;
+  }
+  .card img{
+    width:100px;
+    margin-bottom:20px;
+  }
+  .card h4{
+    font-size:1.2rem;
+    font-weight: bold;
+    line-height: 30px;
+    color:rgba(32, 32, 32, 1);
+    margin-bottom:20px;
+  }
+  .card p{
+    font-family: "Raleway", sans-serif;
+    font-size:0.7rem;
+    color:rgba(128, 128, 128, 1);
+    line-height: 23px;
+    margin-bottom:20px;
+  }
+  .card .read{
+    color:rgba(100, 200, 255, 1);
+    font-family: "Quicksand", sans-serif;
+    font-size:0.7rem;
+    line-height: 23px;
+  }
+  .card .Elemantory-description{
+    color:rgba(240, 170, 0, 1);
+    font-family: "Quicksand", sans-serif;
+    font-size:0.7rem;
+    line-height: 23px;
+  }
+  .card .middle-description{
+    color:rgba(135, 0, 255, 1);
+    font-family: "Quicksand", sans-serif;
+    font-size:0.7rem;
+    line-height: 23px;
+  }
+  .angle{
+    display: flex;
+    justify-content: center;
+    margin-top:60px;
+   
+  }
+  .angle i{
+    background-color: rgba(254, 163, 1, 1);
+    padding:15px;
+    margin:4px;
+    color:rgba(255, 255, 255, 1);
+    border-radius: 50%;
+  }
+  /* story section style  */
+  .stories{
+    width:1020px;
+    margin:50px auto;
+  }
+  .stories h2{
+    font-size:2.3rem;
+    color:rgba(0, 0, 0, 1);
+    font-weight: bold;
+    line-height:50px;
+    text-align: center;
+    margin-bottom:50px;
+  }
+  .image-one{
+    width:490px;
+    height:580px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+  
+  }
+  .image-one-content{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .image-one-content h4{
+    width:350px;
+  }
+  .image-one-content p{
+    width:350px;
+  }
+  .image-one img{
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .image-one button{
+    background-color: rgba(60, 216, 232, 1);
+    color:rgba(255, 255, 255, 1);
+    padding:8px;
+    border-radius:20px;
+    font-family: "Raleway", sans-serif; 
+    font-size:0.7rem;
+    line-height:25px;
+    font-weight: 600px;
+    border:none;
+  }
+  .image-one h4{
+    font-size:1.2rem;
+    font-weight: bold;
+    line-height:30px;
+    color:rgba(0, 0, 0, 1);
+    margin-bottom:20px;
+
+  }
+  .image-one p{
+    font-family:"Raleway", sans-serif; 
+    font-size:0.7rem;
+    line-height:20px;
+    font-weight: 600px;
+    color:rgba(102, 102, 102, 1);
+  
+  }
+  .group-image{
+    height:580px;
+    width:530px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ 
+  
+  }
+  .grp-1 ,.grp-2 , .grp-3 ,.grp-4{
+    background-color: rgba(255, 255, 255, 1);
+  margin:5px;
+  border-radius:20px;
+  }
+  .grp-content{
+   padding-left:20px;
+   padding-right:20px;
+  }
+  
+  .grp-1 button{
+background-color: rgba(149, 178, 38, 1);
+color:rgba(255, 255, 255, 1);
+    padding:8px;
+    border-radius:20px;
+    font-family: "Raleway", sans-serif; 
+    font-size:0.7rem;
+    line-height:25px;
+    font-weight: 600px;
+    border:none;
+  }
+  .grp-2 button{
+    background-color: rgba(93, 88, 240, 1);
+    color:rgba(255, 255, 255, 1);
+    padding:8px;
+    border-radius:20px;
+    font-family: "Raleway", sans-serif; 
+    font-size:0.7rem;
+    line-height:25px;
+    font-weight: 600px;
+    border:none;
+  }
+  .grp-3 button{
+    background-color: rgba(149, 178, 38, 1) ;
+    color:rgba(255, 255, 255, 1);
+    padding:8px;
+    border-radius:20px;
+    font-family: "Raleway", sans-serif; 
+    font-size:0.7rem;
+    line-height:25px;
+    font-weight: 600px;
+    border:none;
+  }
+  .grp-4 button{
+    background-color:  rgba(149, 178, 38, 1);
+    color:rgba(255, 255, 255, 1);
+    padding:8px;
+    border-radius:20px;
+    font-family: "Raleway", sans-serif; 
+    font-size:0.7rem;
+    line-height:25px;
+    font-weight: 600px;
+    border:none;
+  }
+  .group-image p{
+    font-size:0.7rem;
+    font-weight: bold;
+    line-height: 20px;
+color:rgba(0, 0, 0, 1);
+  }
+  .group-image img{
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .story-images{
+    display:flex;
+    gap:10px;
+  }
+  /* shared style  */
+  .btn-all{
+position:relative;
+bottom:25px;
   }
   /* responsive design */
   @media screen and (max-width:756px) {
@@ -115,8 +333,32 @@ margin-bottom:20px;
         width:70%;
     }
     .Empowering{
-        width:70%;
+        width:100%;
         text-align: center;
         margin-top:10px;
+    }
+    .Empowering h2{
+      width:65%;
+    font-size:2rem;
+margin:0 auto;
+    }
+    .Empowering p{
+      width:50%;
+      margin:0 auto;
+      font-size:0.7rem;
+    }
+    .cards{
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .curriculum h2{
+      width:50%;
+      margin:0 auto;
+      text-align: center;
+      font-size:1.8rem;
+    }
+    .angle{
+      display:none;
     }
   }
