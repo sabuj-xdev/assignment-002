@@ -162,42 +162,24 @@ margin:0 auto;
     color:rgba(255, 255, 255, 1);
     border-radius: 50%;
   }
-  /* story section style  */
-  .stories{
-    width:1020px;
-    margin:50px auto;
-  }
-  .stories h2{
-    font-size:2.3rem;
-    color:rgba(0, 0, 0, 1);
-    font-weight: bold;
-    line-height:50px;
-    text-align: center;
-    margin-bottom:50px;
-  }
-  .image-one{
-    width:490px;
-    height:580px;
+  /* stories section style  */
+  /*  class-room  */
+  .class-room{
+    width:550px;
+    height:595px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 20px;
   
   }
-  .image-one-content{
-    padding-left:30px;
-    padding-right:30px;
-  }
-  .image-one-content h4{
-    width:350px;
-  }
-  .image-one-content p{
-    width:350px;
-  }
-  .image-one img{
+  .class-room img{
     width:100%;
-    border-top-left-radius: 20px;
+    border-top-left-radius:20px;
     border-top-right-radius: 20px;
   }
-  .image-one button{
+  .class-room .image-one-content{
+    padding-left:50px;
+  }
+  .class-room .image-one-content button{
     background-color: rgba(60, 216, 232, 1);
     color:rgba(255, 255, 255, 1);
     padding:8px;
@@ -207,86 +189,111 @@ margin:0 auto;
     line-height:25px;
     font-weight: 600px;
     border:none;
+    position:relative;
+bottom:25px;
   }
-  .image-one h4{
+  .class-room .image-one-content h4{
     font-size:1.2rem;
     font-weight: bold;
     line-height:30px;
     color:rgba(0, 0, 0, 1);
     margin-bottom:20px;
-
+    width:320px;
   }
-  .image-one p{
+  .class-room .image-one-content p{
     font-family:"Raleway", sans-serif; 
     font-size:0.7rem;
     line-height:20px;
     font-weight: 600px;
     color:rgba(102, 102, 102, 1);
-  
+    width:350px;
   }
+  /* class-room div  style end  */
+  /* stories style  */
+  .stories{
+    width:1020px;
+    margin:0 auto;
+  }
+  .stories-helper{
+    display:flex;
+    justify-content: space-evenly;
+ 
+  } 
+  /* stories- group image style */
   .group-image{
-    height:580px;
-    width:530px;
-    border-radius: 20px;
+    width:450px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
- 
-  
-  }
+    border-radius: 20px;
+   
+  } 
   .grp-1 ,.grp-2 , .grp-3 ,.grp-4{
     background-color: rgba(255, 255, 255, 1);
-  margin:5px;
-  border-radius:20px;
+    margin:5px;
+    border-radius:20px;
+    } 
+    .group-image .grp-content button{
+      color:rgba(255, 255, 255, 1);
+      padding:8px;
+      border-radius:20px;
+      font-family: "Raleway", sans-serif; 
+      font-size:0.7rem;
+      line-height:25px;
+      font-weight: 600px;
+      border:none;
+      position:relative;
+    bottom:30px;
+    }
+    .grp-1 button{
+      background-color: rgba(149, 178, 38, 1);
+      
   }
-  .grp-content{
-   padding-left:20px;
-   padding-right:20px;
-  }
+     .grp-2 button{
+      background-color: rgba(93, 88, 240, 1);
+          
+    }
+   .grp-3 button{
+      background-color: rgba(149, 178, 38, 1) ;      
+    }
+  .grp-4 button {
+     background-color:  rgba(149, 178, 38, 1);
+          
+     }
+     .group-image  .grp-content{
+      padding-left:20px;
+      padding-right:20px;
+     }
+     /* group image end  */
+     .story-title{
+      font-size:2.3rem;
+      color:rgba(0, 0, 0, 1);
+      font-weight: bold;
+      line-height:50px;
+      text-align: center;
+     margin-top:80px;
+     margin-bottom:50px;
+     }
   
-  .grp-1 button{
-background-color: rgba(149, 178, 38, 1);
-color:rgba(255, 255, 255, 1);
-    padding:8px;
-    border-radius:20px;
-    font-family: "Raleway", sans-serif; 
-    font-size:0.7rem;
-    line-height:25px;
-    font-weight: 600px;
-    border:none;
-  }
-  .grp-2 button{
-    background-color: rgba(93, 88, 240, 1);
+  .story-description{
+    background-color: rgba(17, 17, 17, 1);
     color:rgba(255, 255, 255, 1);
-    padding:8px;
-    border-radius:20px;
-    font-family: "Raleway", sans-serif; 
-    font-size:0.7rem;
-    line-height:25px;
-    font-weight: 600px;
-    border:none;
+    width:150px;
+    text-align: center;
+    padding:10px 10px;
+    border-radius:10px; 
+font-size:1.1rem;
+font-weight: 600px;
+line-height: 20px;
+cursor:pointer;
+margin-top:50px;
   }
-  .grp-3 button{
-    background-color: rgba(149, 178, 38, 1) ;
-    color:rgba(255, 255, 255, 1);
-    padding:8px;
-    border-radius:20px;
-    font-family: "Raleway", sans-serif; 
-    font-size:0.7rem;
-    line-height:25px;
-    font-weight: 600px;
-    border:none;
+  .description{
+    display:flex;
+    justify-content: center;
   }
-  .grp-4 button{
-    background-color:  rgba(149, 178, 38, 1);
-    color:rgba(255, 255, 255, 1);
-    padding:8px;
-    border-radius:20px;
-    font-family: "Raleway", sans-serif; 
-    font-size:0.7rem;
-    line-height:25px;
-    font-weight: 600px;
-    border:none;
-  }
+/* stories style end  */
+
+ 
   .group-image p{
     font-size:0.7rem;
     font-weight: bold;
@@ -298,15 +305,57 @@ color:rgba(0, 0, 0, 1);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
-  .story-images{
-    display:flex;
-    gap:10px;
+  
+ 
+  /* footer section style  */
+  .End{
+    background-color: rgba(1, 172, 253, 1);
+    display: flex;
+    padding:100px;
+    justify-content: space-around;
+    margin-top:40px;
   }
-  /* shared style  */
-  .btn-all{
-position:relative;
-bottom:25px;
+  .end-content{
+  display: flex ;
+  align-items: center;
+    
   }
+  .end-content h2{
+    width:150px;
+    font-size:2.1rem;
+    line-height:35px;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 1);
+  }
+  .End-education p{
+    width:250px;
+    font-size:0.8rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 1);
+    margin-top:30px;
+  }
+  .about-school p{
+    font-size:1rem;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 1);
+margin:10px;
+  }
+  .about-school h4{
+    font-weight: 800;
+    font-size:1.2rem;
+    color:rgba(255, 255, 255, 1);
+    margin:10px;
+  }
+ .touch h4{
+  font-weight: 800;
+  font-size:1.3rem;
+  line-height: 25px;
+  color:rgba(255, 255, 255, 1);
+  margin:10px;
+ }
+ .touch img{
+  width:30px;
+ }
   /* responsive design */
   @media screen and (max-width:756px) {
     .logo h3 {
@@ -360,5 +409,24 @@ margin:0 auto;
     }
     .angle{
       display:none;
+    }
+    /* group image section style  */
+    .class-room{
+      display:none;
+    }
+
+.group-image {
+  grid-template-columns: repeat(1,1fr);
+  
+}
+.grp-content{
+  padding-bottom:20px;
+}
+.stories{
+  width:50%;
+}
+/* end responsive  */
+    .End{
+      flex-direction: column;
     }
   }
